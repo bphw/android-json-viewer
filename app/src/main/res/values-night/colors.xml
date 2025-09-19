@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="json_key">#BA68C8</color> <!-- Light purple -->
+    <color name="json_value">#E0E0E0</color> <!-- Light gray -->
+    <color name="json_expand_icon">#9E9E9E</color> <!-- Medium gray -->
+</resources>

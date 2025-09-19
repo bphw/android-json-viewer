@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#6200EE</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="accent">#03DAC6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="error_color">#F44336</color> <!-- Material Red 500 -->
+
+    <!-- JSON specific -->
+    <color name="json_key">#9C27B0</color>
+    <color name="json_string">#2196F3</color>
+    <color name="json_number">#4CAF50</color>
+    <color name="json_boolean">#FF9800</color>
+    <color name="json_null">#9E9E9E</color>
+
+    <color name="json_value">#212121</color>
+    <color name="json_expand_icon">#757575</color>
+</resources>

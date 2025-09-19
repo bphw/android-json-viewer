@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JSON Viewer</string>
+    <string name="load">Load</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="load_from_url">Load from URL</string>
+    <string name="invalid_url">Please enter a valid URL</string>
+    <string name="load_error_format">Failed to load: %s</string>
+    <string name="file_error_format">Error reading file: %s</string>
+    <string name="empty_file">Empty file</string>
+    <string name="invalid_json">Invalid JSON format</string>
+    <string name="no_browser">No browser app found</string>
+    <string name="version_format">Version v%s 2025</string>
+    <string name="expand_collapse">Expand/Collapse</string>
+</resources>

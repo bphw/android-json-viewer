@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="json_item_padding_horizontal">12dp</dimen>
+    <dimen name="json_item_padding_vertical">2dp</dimen>
+    <dimen name="json_nested_indent">16dp</dimen>
+
+    <!-- Expand/collapse icon dimensions -->
+    <dimen name="json_expand_icon_size">24dp</dimen>
+    <dimen name="json_expand_icon_margin">8dp</dimen>
+
+    <!-- Text dimensions -->
+    <dimen name="json_key_text_size">14sp</dimen>
+    <dimen name="json_value_text_size">14sp</dimen>
+    <dimen name="json_text_margin_start">8dp</dimen>
+
+    <!-- Minimum touch target sizes -->
+    <dimen name="json_item_min_height">36dp</dimen>
+
+    <!-- Dialog dimensions -->
+    <dimen name="dialog_padding">16dp</dimen>
+    <dimen name="dialog_text_size">16sp</dimen>
+
+    <!-- Progress bar dimensions -->
+    <dimen name="progress_bar_height">4dp</dimen>
+
+    <!-- Menu item dimensions -->
+    <dimen name="menu_item_padding">12dp</dimen>
+
+    <!-- Add this line if missing -->
+    <dimen name="json_item_indent">16dp</dimen>
+</resources>
