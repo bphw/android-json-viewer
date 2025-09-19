@@ -98,12 +98,27 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Screenshots
 
-The app features a clean interface with:
+### Main Menu
+<img src="menu.png" alt="JSON Viewer Menu" width="300">
+
+*The main menu showing options to Open File, Open URL, Privacy Policy, and App Info*
+
+### URL Input Dialog
+<img src="input_url.png" alt="Load from URL Dialog" width="300">
+
+*Dialog for entering JSON API URLs with example dummyjson.com endpoint*
+
+### JSON Data Viewer
+<img src="viewer.png" alt="JSON Viewer Interface" width="300">
+
+*Main viewer showing hierarchical JSON data with expandable/collapsible nodes, color-coded elements, and proper indentation*
+
+The app features:
 - Purple-themed header with "JSON Viewer" title
-- Expandable JSON tree structure
-- Color-coded JSON elements (keys, values, types)
-- Intuitive expand/collapse controls
-- Responsive design for various screen sizes
+- Expandable JSON tree structure with `{...}` and `[...]` indicators
+- Color-coded JSON elements (keys in purple, values in different colors by type)
+- Intuitive expand/collapse controls with proper 4-character indentation
+- Clean, responsive design optimized for mobile devices
 
 ---
 

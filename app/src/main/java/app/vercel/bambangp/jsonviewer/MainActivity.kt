@@ -173,12 +173,31 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showAppInfoDialog() {
-        val currentDate = SimpleDateFormat("yyyyMMdd", Locale.getDefault()).format(Date())
-        AlertDialog.Builder(this)
+        val versionText = "Version v20250919"
+        val message = "$versionText\n\nhttps://bambangp.vercel.app"
+        
+        val spannableString = android.text.SpannableString(message)
+        val urlStart = message.indexOf("https://bambangp.vercel.app")
+        val urlEnd = urlStart + "https://bambangp.vercel.app".length
+        
+        val clickableSpan = object : android.text.style.ClickableSpan() {
+            override fun onClick(widget: View) {
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://bambangp.vercel.app"))
+                startActivity(intent)
+            }
+        }
+        
+        spannableString.setSpan(clickableSpan, urlStart, urlEnd, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        
+        val dialog = AlertDialog.Builder(this)
             .setTitle(getString(R.string.app_name))
-            .setMessage(getString(R.string.version_format, currentDate))
+            .setMessage(spannableString)
             .setPositiveButton(getString(R.string.ok), null)
             .show()
+            
+        // Make links clickable
+        dialog.findViewById<android.widget.TextView>(android.R.id.message)?.movementMethod = 
+            android.text.method.LinkMovementMethod.getInstance()
     }
 
     private fun showError(message: String) {
